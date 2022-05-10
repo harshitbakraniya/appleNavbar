@@ -140,8 +140,8 @@ li{
 @media screen and (max-width:600px){
     
     .header{
-        height: 50px;  
-        transition: .5s all;     
+        transition: .5s all;
+        max-height: none;     
     }
     .header.active{
         height: 100vh; 
@@ -157,7 +157,7 @@ li{
         width: 15px;
         background-color: white;
         position: absolute;
-        top: 18px;
+        top: 20px;
         left: 20px;
         transition: .5s all;
     }
@@ -182,14 +182,14 @@ li{
     }
     .header .nav-item:first-child{
         position: absolute;
-        top:13px;
+        top:15px;
         left: 50%;
         transform: translateX(-50%);
     }
     
     .header .nav-item:last-child{
         position: absolute;
-        top:13px;
+        top:15px;
         right: 20px;
     }
     .header .nav-item:nth-child(2){
